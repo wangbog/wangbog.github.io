@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xrd="http://docs.oasis-open.org/ns/xri/xrd-1.0" xmlns:pyff="http://pyff.io/NS" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ser="http://eidas.europa.eu/metadata/servicelist" xmlns:eidas="http://eidas.europa.eu/saml-extensions" xmlns:ti="https://seamlessaccess.org/NS/trustinfo" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" Name="urn:mace:shibboleth:samplefed" ID="samplefed20260422081353" validUntil="2026-05-20T08:13:53Z">
+  <ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ds:Reference URI="#samplefed20260422081353">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <ds:DigestValue>cZ8a/ed44AiGn2Aoe1o98i248WP+Tz1S2hfDdBxCk+s=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>g1rsxWuiI0+L/YiMg1RfD8LwASfHrPAB7LcuQ+kjrBIsUsS0cHMUkA81fAgV2yvZuzD8Y8a+MV2C/EpQRbbD0c/WuvSbQPQ9AsIJSxfbhIwF1LfKweDbZdWtcAVigClvNRFnRiYXKw8msOtLUtzTRN39MnBiOOAxI/XRWFIjNks7tyczTq+Ieeg3kX0QLwk5tJDwLtVZmC83/Pl0eCpIFgCpRdUeHWyZ0LJ7LsqrGHkGgJlneTvcL0OnzglHCi/e1qi6cLe4xRLg7AK/PVJo23kKB5XLSV4wSuM01oddP5yq+ADzirPl8rrBzP56LVIb9zkgHVZHhZJ+BTXfJXc4og==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIDKTCCAhGgAwIBAgIUCfhCJ9R0iFyG4ExiZFjcElV7tk8wDQYJKoZIhvcNAQEL
+BQAwJDEiMCAGA1UEAwwZZmVkLXNhbXBsZWZlZC5leGFtcGxlLmNvbTAeFw0yNjA0
+MjIwNzEwMDVaFw0zNjA0MTkwNzEwMDVaMCQxIjAgBgNVBAMMGWZlZC1zYW1wbGVm
+ZWQuZXhhbXBsZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCq
+ET0AIGxhi/2uyxUs62AYVGDRSbR0dhwM/O7U9UO7SrR3siVvnq/zP2CutdN70i5p
+OzpjJwZrhUmvf9zgagyiUhSu9GGW1SOWQFSy1My1s80Qc/G3MSlzx6DCK4tHe++B
+HXOKARqit6UUMg1ND3cTjWXxGOjp+zejAvqT5ds3sV4uVrR9S06tVQNjbgPKT+Kc
+RDR73pLJ2XbgBSP/VJWH/E8eMLj/gJUuWr2ywbeO9/7dNIfBrzo0MBgIiFRcatYH
+9gqrd2cxqoinVQPWDPkWi1lHxgvbCtgF6B/s4eWNvRsDNAybrzIcQ9T/di2/mF/Z
+16qdmR48Iqw0/TDQHPqHAgMBAAGjUzBRMB0GA1UdDgQWBBQrFlpkeHzXqCf0bcbI
+koQbjr6hSTAfBgNVHSMEGDAWgBQrFlpkeHzXqCf0bcbIkoQbjr6hSTAPBgNVHRMB
+Af8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB2ti9y7cEv805xb4ihT5AmZ4LW
+2AQUmP8Ol+VbKlqovaVJ6wafkPql6CasBiu33P3ukuyPIY+fPLejzqORhk8/eK1u
+8oliWJQk9OlsbgXXezKD+HowbxerHpK6Vu6ww+GmvPdLzaEjT2XyDN2bwiFkPYJc
+Vv3oWajF0954rC01FXZK943BMLOMDM3Jnf//NMzYnUviTmz1pjeDD0PehaNIv70C
+bn/ZJjFMBfQGq8moUc+rb/Ukg9rM2aiLjJPOLFPEMtwBpkU3Z+Q0xpiaGR1gUAh1
+UqJd4Ug+55mqRC1I+Qdy9lqwX6y7VItqR0D9qoBUQxBk8FMqOqE6+8THM9L9</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature><md:Extensions>
+    <mdrpi:PublicationInfo creationInstant="2026-04-22T08:13:53Z" publisher="https://example.com"/>
+  </md:Extensions>
+  <md:EntityDescriptor entityID="https://idp.pku.edu.cn/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo registrationAuthority="https://example.com" registrationInstant="2026-04-22T07:12:35Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://example.com/policy</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">pku.edu.cn</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Peking University IdP</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Peking University, a great university</mdui:Description>
+          <mdui:Logo width="80" height="80">https://mgmt.carsi.edu.cn/member_files/pku.edu.cn/pku.edu.cn-logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJDCCAoygAwIBAgIVAPrvc93kjZHzMKHx5joZZ4jyCsn6MA0GCSqGSIb3DQEB
+CwUAMBkxFzAVBgNVBAMMDmlkcC5wa3UuZWR1LmNuMB4XDTE5MDUyMDA4NTQ1MFoX
+DTM5MDUyMDA4NTQ1MFowGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCf0MxWPJS0EVMKB6P4iH6NfwGvCC8H
+edLHU7a3rnr8I1s3dNn8eOd6kp9puh1OPDRVt86cNjNePJcxq3P7svpWcrfyKZVU
+/RRriVozR/3pC606jWVq+GhGhKdUsjrc1FyxwrSsjJI9J9k9A+n7XA9Zhd5pTy5N
+gg4MLVY5VbasYzrO0kows2bajDqFFBXJno2zhJs29sKhc63Fxp4PKIu7dLzPTEoz
+KehXj3APAnGIEakhQgLFFlAvd0QVMOsXl+rHA5JcUy66yVXgc9KJ6qri1SMx6kaj
+9AW7ROTmHeGAUVuAzMa+Za2zq+Wr+vxyOMNbxUUMJ8EsPJGFD2l+YmZhAdWr83jK
+KukKbZPtXm7SVIgMOFTbZ5Gtxnj5KyPqDFfr0vqkv1Fx5sT77/1Vk1Xrd3LLc4D5
+/5+RL36FWaGqw4zcaIrhwjafrMFm4ahbC0cJ5GzubdNbuYwcQ4fURb3VDeeu3HOr
+oIY5leuilUbOVO6y5qhBmkZYOusZEXC77hkCAwEAAaNjMGEwHQYDVR0OBBYEFHv5
+KWdUiaMayiI3NVaxZSuq2sOCMEAGA1UdEQQ5MDeCDmlkcC5wa3UuZWR1LmNuhiVo
+dHRwczovL2lkcC5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB
+CwUAA4IBgQCPkQF39nKRtmzP2rxYZNOHLCowBR7JPSqTG6LM0OifdghXCJ5w0aQ7
+6Uo9Fu/9KyAIV07K8YU/X5RcosdgjePxbXnXTezogM+RyqhyVzrmIrvn7IRutTyR
+d+tdTIZrdksT03gox0OHNNFgM5vnkQAFs3KEIB3gdynVyKhnuA+TzHeILeLpW3eH
+gG3CBFsv/XhlmotZsAgZiIoTt8pl711Asmy5flwZCvc+w6ii7YqOiNb1lVhDID73
+f6vBZrYHE/wpYHmprWfkywa4z/RYgFWOI1RmLrXRz3D3Rc5JYECWecOxM/FlGwtk
+9tuYWOhTPEb7q3RyVawNhmCJDEYTpMsU/eZFk6LkkzaR0Svf7b6yEn0fu9jZG+AX
+6cC+lnJRbbsRsNbbow8vjY/qPWtB+8uNrRwlxkyLM7oxgG0gNMgFxXpkwgqee4C2
+YGGDdqJqsFjMJ+JCw7im/ZRH17HSPUT3mkpvT7csZClL5wrFYJnT+4f/f2tfHo/Q
+LiNFs7isWKI=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJDCCAoygAwIBAgIVAJrZcpyq+E6Nh7h5qbYE1yg8rxcTMA0GCSqGSIb3DQEB
+CwUAMBkxFzAVBgNVBAMMDmlkcC5wa3UuZWR1LmNuMB4XDTE5MDUyMDA4NTQ0OVoX
+DTM5MDUyMDA4NTQ0OVowGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCS7hTI/UsiISYW+6Nnw40D5g57H6R/
+I8DTyRqhlaNHvmG7e8CxKru5Hq4Lj93j+BCtvjEJn6trIsadqxyOedIhH1Eu3A7R
+ZOZoVt/gYAjWsaWAwFa8Mha6421Y3sT9g5BxoHKeFhIdfiWDziU8EQlgnngpJEu5
+hUI/BWUXrAiALdOu854G5xemOAOLS1KUa9ewckQ7R1ZCNdFqjHTOpkcTGPfRgBqs
+gZxB3VhYdyV/gL7Am9CZsHTVTuPc/6z162sP3e2/C4f+GZgTItGoBzz9WIKz1wfv
+qf+vKXWa9UHFvZ9/aT1ViHybK9r3bgTJrekyx3buUgOWonyuuMDgcyBA6PYDbvXl
+ufT58Ob3sRdNdLY0iYlJYYAhFNoFgVJeyHpACs2lD8gybPMJV2DSNEcugulTIk60
+btXFIMhGnorTMdzfIKLiHFw55Z6HpCJoK0B14j5QA7adcKQga2xyWvYWAVB37Man
+j1eit0ivTjnicYYUtjFJTaMRQdVSBTGrjjkCAwEAAaNjMGEwHQYDVR0OBBYEFJC3
+ZRkjkIwzEQEApY8fOpG/WaMUMEAGA1UdEQQ5MDeCDmlkcC5wa3UuZWR1LmNuhiVo
+dHRwczovL2lkcC5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB
+CwUAA4IBgQA9Mk6pALIySfEsDq3+K6d0dnKWWwjO23eUvJRikV7L7Rfl2uEOl/jw
+oGJ+jSjJVQHBzRrmnBxca1sAR9oo9rB7Ih45osVz4rPc8FciB0CGZyao6vt1yXdk
+1ed8RzjCh4pw8fV9GIg5uE6iuTPCdTWHokMxvlPIFi8+DeNKa88VGferbs1AvVi9
+qcp0eRxI402Xk35SUCXJnd5vYxMUbOU3o4uWdts3z5Aj3yiD36uFqoGPjq9W33g+
+VRboVK9an04z4Pz9WKUmVCIhYIrtNEMDQL0K9tw/w2nKiFsDSfg3W2j3EinNCh82
+R6c9KHUdn0Crd6udZQN+pMkmSdym+izi7UaI3cVMteBypElHTHmBdQiGOOIQLXoZ
+/ccRGSF1pyQca7N2LNdNrlelB+bUkVLWgYAC9EglPXpOjX17Ti/+HM0UfmGW1ZOn
+d3Z854QoIqzpy35YGUX5U12aLQT53Aq+HQrKoKoxmVR1B0TrpdyyciyXMz6YcQHv
+vdyS+bwP590=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEIzCCAougAwIBAgIUIJXbqGFlE/0GF4UoTvIwDRGd2QowDQYJKoZIhvcNAQEL
+BQAwGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wHhcNMTkwNTIwMDg1NDQ5WhcN
+MzkwNTIwMDg1NDQ5WjAZMRcwFQYDVQQDDA5pZHAucGt1LmVkdS5jbjCCAaIwDQYJ
+KoZIhvcNAQEBBQADggGPADCCAYoCggGBAI2s1/+EVXD3sbnB4whwz8lDLhqkyE6X
+p2SwvLgfeFwJOUp7bmSxIOSjcMnYukjCuKZaSsAmzJ9DmcBLV2wBvng8PDJEzijx
+7HaOzBzYIKfueZPMRDR1nzlWugvptWDVYqaNUrsC5HQXwS04SDKUir0iDGVBEYNT
+dMm90FMWdvioYEiGHnaBF+3h6exu55a2w2eOfQ2FLXefnV7ZoQ4YFMVjPROlXlZS
+wUrxqQ/+AukTYUFzXQOtVGS0R+tjbe6sGogExnvbqOF2N5P1dh4WJkzVHDlEV/ZG
+nl1utNBmmEtoG978Ra23NPNIIQZUKjGASIvawKwO9BVBbCvEAbSKEBWqfeYgUNll
+ub/7h8pdmzlmG92yx/K6O5oBLpOFeB7L1iQCJv+kBy14lPj4ju7EQA07d1317CVc
+SSahFwt8OxW2Eb3aBzuAUoFudJdLeOLsy31lErAp4CuZM0nMCBW0J6xNu4h4Sz1y
+rIdpTN6FhjvC4jOkM2xQFTSXc5mZCkhAYQIDAQABo2MwYTAdBgNVHQ4EFgQUD+99
+LAX1xx5Xn1my8MJE0zgJ2yUwQAYDVR0RBDkwN4IOaWRwLnBrdS5lZHUuY26GJWh0
+dHBzOi8vaWRwLnBrdS5lZHUuY24vaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
+BQADggGBACwN4ePzgKbJAFD784OBXdxEiEVksG1CjouWv/njGGaK5MtQ7AyX7XI6
+PPeEZK7Appi1m7+J2BY8CpwittgWGwXFe5rFuk+onBxEg1f1nkE6EEnVDJcAv4HZ
+680jsN+eLdYb0uRfjRqw2D59mYVHL6S93+NFkDhjnOu7YmTv84TZnoyqag0UWfji
+NqVbX9hfw5AMG2ZetF2UySsr3SbE6IXu6+jFfWXPrrp4p3UlE8uOqDsgWQyRz2q2
+Z27t/R7cNtpWl+2hDV32EZZ1+0mSm2dF6XvDV0ErEWfYz1kiwqnwlbog0wyskHtv
+BxQAycilQHx5SE7Cg1cFRZdB1NTNB8DfyLe9HU5zH7AWTPBvv3oTiApAqM6VfvMa
+atMjKIgsVnkiJsibZF+Fq8T4hKNH4IpX0JVTyUNSUm6SjlYQBiAk0nP/8S8RNC7t
+7a58xVOe+TwTs/TR4nYk4W/NimhwLQSPqHNU4t8yDov84bpCILkDX1/H4KT2hb0e
+00zApef5mQ==
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.pku.edu.cn:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/>
+      <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.pku.edu.cn:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.pku.edu.cn/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.pku.edu.cn/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.pku.edu.cn/idp/profile/SAML2/POST-SimpleSign/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.pku.edu.cn:8443/idp/profile/SAML2/SOAP/SLO"/>
+      <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.pku.edu.cn/idp/profile/Shibboleth/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" req-attr:supportsRequestedAttributes="true" Location="https://idp.pku.edu.cn/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" req-attr:supportsRequestedAttributes="true" Location="https://idp.pku.edu.cn/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" req-attr:supportsRequestedAttributes="true" Location="https://idp.pku.edu.cn/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">pku.edu.cn</shibmd:Scope>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJDCCAoygAwIBAgIVAPrvc93kjZHzMKHx5joZZ4jyCsn6MA0GCSqGSIb3DQEB
+CwUAMBkxFzAVBgNVBAMMDmlkcC5wa3UuZWR1LmNuMB4XDTE5MDUyMDA4NTQ1MFoX
+DTM5MDUyMDA4NTQ1MFowGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCf0MxWPJS0EVMKB6P4iH6NfwGvCC8H
+edLHU7a3rnr8I1s3dNn8eOd6kp9puh1OPDRVt86cNjNePJcxq3P7svpWcrfyKZVU
+/RRriVozR/3pC606jWVq+GhGhKdUsjrc1FyxwrSsjJI9J9k9A+n7XA9Zhd5pTy5N
+gg4MLVY5VbasYzrO0kows2bajDqFFBXJno2zhJs29sKhc63Fxp4PKIu7dLzPTEoz
+KehXj3APAnGIEakhQgLFFlAvd0QVMOsXl+rHA5JcUy66yVXgc9KJ6qri1SMx6kaj
+9AW7ROTmHeGAUVuAzMa+Za2zq+Wr+vxyOMNbxUUMJ8EsPJGFD2l+YmZhAdWr83jK
+KukKbZPtXm7SVIgMOFTbZ5Gtxnj5KyPqDFfr0vqkv1Fx5sT77/1Vk1Xrd3LLc4D5
+/5+RL36FWaGqw4zcaIrhwjafrMFm4ahbC0cJ5GzubdNbuYwcQ4fURb3VDeeu3HOr
+oIY5leuilUbOVO6y5qhBmkZYOusZEXC77hkCAwEAAaNjMGEwHQYDVR0OBBYEFHv5
+KWdUiaMayiI3NVaxZSuq2sOCMEAGA1UdEQQ5MDeCDmlkcC5wa3UuZWR1LmNuhiVo
+dHRwczovL2lkcC5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB
+CwUAA4IBgQCPkQF39nKRtmzP2rxYZNOHLCowBR7JPSqTG6LM0OifdghXCJ5w0aQ7
+6Uo9Fu/9KyAIV07K8YU/X5RcosdgjePxbXnXTezogM+RyqhyVzrmIrvn7IRutTyR
+d+tdTIZrdksT03gox0OHNNFgM5vnkQAFs3KEIB3gdynVyKhnuA+TzHeILeLpW3eH
+gG3CBFsv/XhlmotZsAgZiIoTt8pl711Asmy5flwZCvc+w6ii7YqOiNb1lVhDID73
+f6vBZrYHE/wpYHmprWfkywa4z/RYgFWOI1RmLrXRz3D3Rc5JYECWecOxM/FlGwtk
+9tuYWOhTPEb7q3RyVawNhmCJDEYTpMsU/eZFk6LkkzaR0Svf7b6yEn0fu9jZG+AX
+6cC+lnJRbbsRsNbbow8vjY/qPWtB+8uNrRwlxkyLM7oxgG0gNMgFxXpkwgqee4C2
+YGGDdqJqsFjMJ+JCw7im/ZRH17HSPUT3mkpvT7csZClL5wrFYJnT+4f/f2tfHo/Q
+LiNFs7isWKI=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJDCCAoygAwIBAgIVAJrZcpyq+E6Nh7h5qbYE1yg8rxcTMA0GCSqGSIb3DQEB
+CwUAMBkxFzAVBgNVBAMMDmlkcC5wa3UuZWR1LmNuMB4XDTE5MDUyMDA4NTQ0OVoX
+DTM5MDUyMDA4NTQ0OVowGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wggGiMA0G
+CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCS7hTI/UsiISYW+6Nnw40D5g57H6R/
+I8DTyRqhlaNHvmG7e8CxKru5Hq4Lj93j+BCtvjEJn6trIsadqxyOedIhH1Eu3A7R
+ZOZoVt/gYAjWsaWAwFa8Mha6421Y3sT9g5BxoHKeFhIdfiWDziU8EQlgnngpJEu5
+hUI/BWUXrAiALdOu854G5xemOAOLS1KUa9ewckQ7R1ZCNdFqjHTOpkcTGPfRgBqs
+gZxB3VhYdyV/gL7Am9CZsHTVTuPc/6z162sP3e2/C4f+GZgTItGoBzz9WIKz1wfv
+qf+vKXWa9UHFvZ9/aT1ViHybK9r3bgTJrekyx3buUgOWonyuuMDgcyBA6PYDbvXl
+ufT58Ob3sRdNdLY0iYlJYYAhFNoFgVJeyHpACs2lD8gybPMJV2DSNEcugulTIk60
+btXFIMhGnorTMdzfIKLiHFw55Z6HpCJoK0B14j5QA7adcKQga2xyWvYWAVB37Man
+j1eit0ivTjnicYYUtjFJTaMRQdVSBTGrjjkCAwEAAaNjMGEwHQYDVR0OBBYEFJC3
+ZRkjkIwzEQEApY8fOpG/WaMUMEAGA1UdEQQ5MDeCDmlkcC5wa3UuZWR1LmNuhiVo
+dHRwczovL2lkcC5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB
+CwUAA4IBgQA9Mk6pALIySfEsDq3+K6d0dnKWWwjO23eUvJRikV7L7Rfl2uEOl/jw
+oGJ+jSjJVQHBzRrmnBxca1sAR9oo9rB7Ih45osVz4rPc8FciB0CGZyao6vt1yXdk
+1ed8RzjCh4pw8fV9GIg5uE6iuTPCdTWHokMxvlPIFi8+DeNKa88VGferbs1AvVi9
+qcp0eRxI402Xk35SUCXJnd5vYxMUbOU3o4uWdts3z5Aj3yiD36uFqoGPjq9W33g+
+VRboVK9an04z4Pz9WKUmVCIhYIrtNEMDQL0K9tw/w2nKiFsDSfg3W2j3EinNCh82
+R6c9KHUdn0Crd6udZQN+pMkmSdym+izi7UaI3cVMteBypElHTHmBdQiGOOIQLXoZ
+/ccRGSF1pyQca7N2LNdNrlelB+bUkVLWgYAC9EglPXpOjX17Ti/+HM0UfmGW1ZOn
+d3Z854QoIqzpy35YGUX5U12aLQT53Aq+HQrKoKoxmVR1B0TrpdyyciyXMz6YcQHv
+vdyS+bwP590=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEIzCCAougAwIBAgIUIJXbqGFlE/0GF4UoTvIwDRGd2QowDQYJKoZIhvcNAQEL
+BQAwGTEXMBUGA1UEAwwOaWRwLnBrdS5lZHUuY24wHhcNMTkwNTIwMDg1NDQ5WhcN
+MzkwNTIwMDg1NDQ5WjAZMRcwFQYDVQQDDA5pZHAucGt1LmVkdS5jbjCCAaIwDQYJ
+KoZIhvcNAQEBBQADggGPADCCAYoCggGBAI2s1/+EVXD3sbnB4whwz8lDLhqkyE6X
+p2SwvLgfeFwJOUp7bmSxIOSjcMnYukjCuKZaSsAmzJ9DmcBLV2wBvng8PDJEzijx
+7HaOzBzYIKfueZPMRDR1nzlWugvptWDVYqaNUrsC5HQXwS04SDKUir0iDGVBEYNT
+dMm90FMWdvioYEiGHnaBF+3h6exu55a2w2eOfQ2FLXefnV7ZoQ4YFMVjPROlXlZS
+wUrxqQ/+AukTYUFzXQOtVGS0R+tjbe6sGogExnvbqOF2N5P1dh4WJkzVHDlEV/ZG
+nl1utNBmmEtoG978Ra23NPNIIQZUKjGASIvawKwO9BVBbCvEAbSKEBWqfeYgUNll
+ub/7h8pdmzlmG92yx/K6O5oBLpOFeB7L1iQCJv+kBy14lPj4ju7EQA07d1317CVc
+SSahFwt8OxW2Eb3aBzuAUoFudJdLeOLsy31lErAp4CuZM0nMCBW0J6xNu4h4Sz1y
+rIdpTN6FhjvC4jOkM2xQFTSXc5mZCkhAYQIDAQABo2MwYTAdBgNVHQ4EFgQUD+99
+LAX1xx5Xn1my8MJE0zgJ2yUwQAYDVR0RBDkwN4IOaWRwLnBrdS5lZHUuY26GJWh0
+dHBzOi8vaWRwLnBrdS5lZHUuY24vaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
+BQADggGBACwN4ePzgKbJAFD784OBXdxEiEVksG1CjouWv/njGGaK5MtQ7AyX7XI6
+PPeEZK7Appi1m7+J2BY8CpwittgWGwXFe5rFuk+onBxEg1f1nkE6EEnVDJcAv4HZ
+680jsN+eLdYb0uRfjRqw2D59mYVHL6S93+NFkDhjnOu7YmTv84TZnoyqag0UWfji
+NqVbX9hfw5AMG2ZetF2UySsr3SbE6IXu6+jFfWXPrrp4p3UlE8uOqDsgWQyRz2q2
+Z27t/R7cNtpWl+2hDV32EZZ1+0mSm2dF6XvDV0ErEWfYz1kiwqnwlbog0wyskHtv
+BxQAycilQHx5SE7Cg1cFRZdB1NTNB8DfyLe9HU5zH7AWTPBvv3oTiApAqM6VfvMa
+atMjKIgsVnkiJsibZF+Fq8T4hKNH4IpX0JVTyUNSUm6SjlYQBiAk0nP/8S8RNC7t
+7a58xVOe+TwTs/TR4nYk4W/NimhwLQSPqHNU4t8yDov84bpCILkDX1/H4KT2hb0e
+00zApef5mQ==
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.pku.edu.cn:8443/idp/profile/SAML1/SOAP/AttributeQuery"/>
+    </md:AttributeAuthorityDescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Federation Admin Org</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Federation Admin Org</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://example.com</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+      <md:GivenName>fedadmin</md:GivenName>
+      <md:EmailAddress>mailto:fed@example.com</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://idp5.pku.edu.cn/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo registrationAuthority="https://example.com" registrationInstant="2026-04-22T07:12:17Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://example.com/policy</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+        <saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">pku.edu.cn</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Peking University IdP5</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Peking University, a great university</mdui:Description>
+          <mdui:Logo width="80" height="80">https://mgmt.carsi.edu.cn/member_files/pku.edu.cn/pku.edu.cn-logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJzCCAo+gAwIBAgIUOiKnRG0MHz5AtGXEvnPIUO0WM/4wDQYJKoZIhvcNAQELBQAwGjEYMBYG
+A1UEAwwPaWRwNS5wa3UuZWR1LmNuMB4XDTI1MDQxNDA1MTk1NloXDTQ1MDQxNDA1MTk1NlowGjEY
+MBYGA1UEAwwPaWRwNS5wa3UuZWR1LmNuMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA
+4gFpFt5qcbh/I8q8Y2mAeq07CArkgv49kDMXi6btls/2LrO1cAsr6n931Hdoa+PFipojAwNFzoXo
+G84thFnA+CgMs374sPibGzuP36WDUTIdWYSTPrB4nyBxZmn2wUyzVCs1lLtGLR9ite27Hdgqntu9
+SWHzoXiJSUlcDy0RmiJ5B0bqqmd71pNL83zEdBT8/fqYoG18q2qKr8SErVFAOKyhmwS9l2L4dBK1
+mRXp04o6DRZ7Swe3Fxx44/BUowe6Uvcej9V8D0k06o1DE9as+v6iuMt17aMsluNBMi9zlUiebzOp
+/yFLNMxOHxqZnK8n1IAaOhjbHP0YlF1Qcsp+iRZHrFWiWLJWrxZI9qGhX/pkFQcVVV3HQ/RV/myv
+igjaQ2NSrer/ISP/ApoAr8h7lFrRD41A2vJzWNLjdi1napRL/8ytnfldSMjiqnwuxB596K+G2rx4
+/WGjIJ9II8/WVhLCAcTjPqbVQyXNvfNElVg0K7TUEl1ehfXShFhFCZkTAgMBAAGjZTBjMB0GA1Ud
+DgQWBBToSACP0quaLwSlXjm9VdP2csyeszBCBgNVHREEOzA5gg9pZHA1LnBrdS5lZHUuY26GJmh0
+dHBzOi8vaWRwNS5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQAs
+sZwKXstypye3dKgPY/cdLl/nRVjszGjMgW6rdfZpqugTdLKGbIzk6heQF+V7Q4oRcD5SNCwkxhzX
+PaOFZsI5sGbH5MNsM91h5ymFK+NE7QDOaxPd8LCXq6Jmd+xfsYm8hFKVvicisXowSiZmNzf7fDs9
+zMFDkpLiupaC7w8xyGMJ3QhTFl/TJfD5he20FbRhpB0wIPeOysL53dY0PBYzTs2BlAC3o+D4avxj
+DV6C/Trgjf+d8YA43sx/OR689ixNZmQkTJLdJVGEyG8iHFcIuhlTEOY0ZH6P1OEZHMgJGOxDkD89
+/nDBE7/lXrUgP95zmm7M6dg5pRCnT1BZZOYY8mjJC+jE07jnM+89lZTC9NKNTtb/1nF1scrMj8ES
+/YoUEI3FQYW9ja7/lYtl8SjkYboGeH8nrtjanEqv9oRTXOEYKLo2x5ntVzDvqoAvC5NgjIOCIirn
+ZMtwCMbj0OR6gP73bzkdW27lokK6XCQNsiJjpIc0GROdwvypaQ4+m8Q=
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEKDCCApCgAwIBAgIVAMease3O6lIZtp/J0RW8gZdH72xvMA0GCSqGSIb3DQEBCwUAMBoxGDAW
+BgNVBAMMD2lkcDUucGt1LmVkdS5jbjAeFw0yNTA0MTQwNTE5NTRaFw00NTA0MTQwNTE5NTRaMBox
+GDAWBgNVBAMMD2lkcDUucGt1LmVkdS5jbjCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGB
+AMT+0UZ9GEPhtrDamKuyr8iDw32JOX/ByydxaZaktYrq0k1eiCeCYOT3KPrSYMscSFNm4A323xUz
+4hFO4iPCXRuPswxQGDg8aArWueZoz+deMstH4XEKcb8+776KIq6wuID8PFlKd60pzl5POizz4+fq
+D3FmZzsCgf9HpkmjjOCiMw0HaHrACBZEvl23L9FYJpMueWe+br0ZDbn1AbMYv4j8moQ+xhWaHmr+
+oJwUO6x4IH/btyX/+XYA8bbI5DSRtg7WO4Dl+Vu92eq5GES1ZiCD7y/11YfR6iZHdml5CUELsn37
+efv19U07HLqKTUuzseMtY9yEETQ+zhcPhYZfS+Nsi1VuPA6MirXs+KBeO9ayoRMFbaQtjLAF+cqX
+E2cW3QuYiEuhebRDgvlngtpJytThp3Zc8eLBTHvmdThIzAvMmPicuB/0EGFazon6u6DaLUgrexOP
+1voC3MfNXBGBv5tp2ZwiQ+YGedw8+pi/3VJHlJeXVRsA2JfSpkhczgiHBQIDAQABo2UwYzAdBgNV
+HQ4EFgQUVcCBmILVvh7lRg30ESC17ZkiDTgwQgYDVR0RBDswOYIPaWRwNS5wa3UuZWR1LmNuhiZo
+dHRwczovL2lkcDUucGt1LmVkdS5jbi9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEA
+xABwN84z31/uIwWXbl/I82gfisPhk9TvMmb9Q+cqT9Xp3cHddG6nW2GHeviAu6jvxkc56gf6Dq/z
+j1XPlSolS9cuxXBS1ctQX3q62trp+A+9Qly1PzssLndjEtnechoYtTJ6UHRf3vbeKQGqQYLKN7vg
+JfpgtSz+XplYSR6SMzLiLq0zLBiIiC/aD32cTHaW9//ma79WWnodbjtxIdt2X9aKg02N3n7KoHAc
+/mdAmZlmM2OjOva/SHoEhMUNpXjf5XK3BnyfuJUmj455Gy3lrcFB7wxrty5Q1NaYHXba69HaF7Hg
+B6/72ioFAkPe9K63J4mwK8OpAK45uOjCj54yNqtRIi3qhpEkNpY0taH/uNnVNha0b56idsMI7KrI
+oiruxK0kdvnD6+fMr/uLfRdUlC+1tq6NmLb41sywk2J5Olhh7dKIRhRYUeAO8jWXp5p+FVjAntjK
+R93dMbdXw1BPoLAJmHrMh75CacYYttNDpbWsorGAchw6D4GMPu9q5nYY
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIEJzCCAo+gAwIBAgIUVbGirKE+/PSP5/MXrrGWP+nYUp4wDQYJKoZIhvcNAQELBQAwGjEYMBYG
+A1UEAwwPaWRwNS5wa3UuZWR1LmNuMB4XDTI1MDQxNDA1MTk1NVoXDTQ1MDQxNDA1MTk1NVowGjEY
+MBYGA1UEAwwPaWRwNS5wa3UuZWR1LmNuMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA
+m0BrwjMXmTiHYlmcsV/OQzO/PNP0p6SbHNLzA8l4b57X0foV5CuzBzcvSvEAvb0cSg2ZmwQ1YUgY
+ezKYaZugsn78R2P82DA63VNOaKEZ6rMEgc/hb7400pew/Od2WQKaaEYqEpk77wyjWxtgHgfM/+wF
+lVJXqqqUK+aXQpqgip39570qnHf8xw/poM2QuWRjJGJDYb4fFDmvnTGU9s90xXFRPnVY5sSqh/UO
+Nz8qO3GRVI6gsZwtFf/UEN7zIqej/mLo3qp6m/JBcM+odEYhi4IOtR1LO1bB7vPRGNNQYWK1hEyn
+PjIaUHFPod4mU1rzsS7VlQCoN3GY3ogVklEbqLHwwvZwsM/1q/52J5d0hCQwFPCW/GzhHuNYyXLj
+N1xKdEeKUoXuV6dRfgZ0vykCv2ywNGgZ9mEOOZ3n1pgMfnlJHTkuAmYkkMrlDr5tmrOk7v3wsJTo
+vJsfeb0UT78pRgxFnG2zz1l/Y2GwB9ogv8kqCXiobEk8EHRDMa3rl8ORAgMBAAGjZTBjMB0GA1Ud
+DgQWBBRFBNlSr3kizR1y1dcbfmuWG8gxVjBCBgNVHREEOzA5gg9pZHA1LnBrdS5lZHUuY26GJmh0
+dHBzOi8vaWRwNS5wa3UuZWR1LmNuL2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQAj
+ON1cl96H5TO9Ce9NLX6I0UJQwSvDqHagtiILPaItlQMF/ZdVJJ1+4Ubg+IZgrLLVm9Jsu10Ei+Jg
+ZsOQgId0iQY7EhAK01fWhQZWo5K3628jvdletqU/65w19Cur1c+5y85UG0OPWN3vj70wUINSWaPp
+TE8YrRBC0JYqnK0WSCemeB1+rs0FEV42stL/Liot2Cj2VzDbirzjqCQfgbXTGfid19zWxuq9zBr7
+i9dVsGmo2Lpskn8NOiztssfZFixl44BhqpdZj0Gm9Fkfqx3zuG6dJ8vmSoPbnAfTPfIfz9U+XJal
+A0CR3DO3Z1hdjkiIENtP6JAzNLQoYeE2+v39Te7WtCwm/0Zud7P3Dre6Z6iBRCEuhhN6SSukWqkx
+R0IwxnB3ZbX8A32dOnFQe+ZWkYhhMYnt+zMonefbc1xMB+mDcH2CNKtZWF8lnd5IclBY4lnBYet6
+/MHk2jeMEaMnZqTaw3a/Ejuf7nLAFxgJgN/RnnGoWTiu0HUC5LWgOTs=
+                    </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/SOAP/ArtifactResolution"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/POST-SimpleSign/SLO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/Redirect/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp5.pku.edu.cn/idp/profile/SAML2/POST/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Federation Admin Org</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Federation Admin Org</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">https://example.com</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+      <md:GivenName>fedadmin</md:GivenName>
+      <md:EmailAddress>mailto:fed@example.com</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson xmlns:remd="http://refeds.org/metadata" contactType="other" remd:contactType="https://refeds.org/metadata/contactType/security">
+      <md:GivenName>fedadmin</md:GivenName>
+      <md:EmailAddress>mailto:fed@example.com</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+  <md:EntityDescriptor entityID="https://sso.umk.pl/idp/shibboleth">
+    <md:Extensions>
+      <mdrpi:RegistrationInfo registrationAuthority="https://aai.pionier.net.pl" registrationInstant="2015-03-12T00:00:00Z">
+        <mdrpi:RegistrationPolicy xml:lang="en">https://aai.pionier.net.pl/en/index.php?page=rps</mdrpi:RegistrationPolicy>
+      </mdrpi:RegistrationInfo>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+    <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">stud.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">doktorant.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">mat.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">fizyka.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">cm.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">law.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">econ.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">chem.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">astro.umk.pl</shibmd:Scope>
+        <shibmd:Scope regexp="false">v.umk.pl</shibmd:Scope>
+        <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Nicolaus Copernicus University in Torun</mdui:DisplayName>
+          <mdui:DisplayName xml:lang="pl">Uniwersytet Mikołaja Kopernika w Toruniu</mdui:DisplayName>
+          <mdui:Description xml:lang="en">Nicolaus Copernicus University Identity Provider</mdui:Description>
+          <mdui:Description xml:lang="pl">Uniwersytet Mikołaja Kopernika w Toruniu</mdui:Description>
+          <mdui:Logo height="78" width="240" xml:lang="pl">https://sso.umk.pl/idp/images/logo-umk.png</mdui:Logo>
+          <mdui:Logo height="78" width="240" xml:lang="en">https://sso.umk.pl/idp/images/logo-umk-en.png</mdui:Logo>
+        </mdui:UIInfo>
+        <mdui:DiscoHints>
+          <mdui:IPHint>158.75.0.0/16</mdui:IPHint>
+          <mdui:DomainHint>uni.torun.pl</mdui:DomainHint>
+          <mdui:DomainHint>umk.pl</mdui:DomainHint>
+          <mdui:GeolocationHint>geo:53.1234804,18.0084378</mdui:GeolocationHint>
+        </mdui:DiscoHints>
+      </md:Extensions>
+      <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDEzCCAfugAwIBAgIUWIZMrGT9/FIBX0hdLCptqQJ1RiswDQYJKoZIhvcNAQEL
+BQAwFTETMBEGA1UEAwwKc3NvLnVtay5wbDAeFw0xNTAzMTEwNzQ2MzlaFw0zNTAz
+MTEwNzQ2MzlaMBUxEzARBgNVBAMMCnNzby51bWsucGwwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCM77rj2mEHZ76eEbZJdTtOMXRjIbNu79aVoFtqMZxr
+PD3IA0r0SJcWbr2nIO3Z+Ci33Xs2cB/phGoU2OYSFeUOp0F/tfAPIgUy4YAhFQkp
+tLLRxc1PFzmLEDFHcQqXIHoqfLPfjir8AEzHbptqTitaw0kIgJC+xDiUfGRR1zI4
+lYBbpISySsD7gTaflA+e8U4ifqrbgITJSYYOaE3q7K2Zyu6ZMfsPZxoRTld7BOvG
+fvgDgzBSa7qZjPbCi93znU0NEzqsUM9g6Jd3yu/E8hUo7KaO9JTiX6xVAHUGIMN8
+IzuCsEhKQJhMLhUuENc4TDqn3f7FGGI6zSqSfjGg5r6RAgMBAAGjWzBZMB0GA1Ud
+DgQWBBTFekUTwFQOd5jKK1hWAYQ41dIu5DA4BgNVHREEMTAvggpzc28udW1rLnBs
+hiFodHRwczovL3Nzby51bWsucGwvaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
+BQADggEBACzrnxEim4WedVtXG4vq5lKI5Cufzy2r/ovnjvOEMVHrt9lugYRT+8Hx
+NUXJry0AufhEZELXh53/mvqx1l17ei62zd3cucp81FNlalv/rKDX4y1jSgFcyLwW
+4LhVfVTdZ3PCfjvPajGbfuJvd28FegcB0dgnk3J1GQcsWZcbzd8XepZzFDdEgyBP
+Au7I/pBdX7RsgM/LoOen/aw6Uj+LPoWy6RwL563KH7NhJF+KeB00yQIxVN0k+f3D
+TAbD2blb/PZi/TcO/MHmmPJMutH4X5Inc1kqhjR5w3aPaBNjYjsA6alHizFxtmV1
+TNQf6/ZTV5LWHf9ohPRNsqTx690Na8c=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>
+MIIDEzCCAfugAwIBAgIUdaR0NptdV+hiD4OR814FPAcQA04wDQYJKoZIhvcNAQEL
+BQAwFTETMBEGA1UEAwwKc3NvLnVtay5wbDAeFw0xNTAzMTEwNzQ2MzlaFw0zNTAz
+MTEwNzQ2MzlaMBUxEzARBgNVBAMMCnNzby51bWsucGwwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCAWMta6pyz2LUqSNNy4Iwawaq1AIXlthNlL21N9Qdd
+bkKusnvs1nFcqyKwUfoEgsE8B71ksbpO7dPtc52Jicvgct4AdxwMnBZjlrTig333
+MS2/6GBeMVk9nuifGLYAIvN1WXU3HKbeEG0O4J5gIYnfJg5Y0VBmxhJ6rcj8FRSq
+efNoa+9jluJlOolojHjvaMDjHdCNObC60FqznQFCjU0eXz7rtIHNSXtQ32diKDSq
+kkZubRcPPaGt41+hZBRwh5WgF7uCDolXqwepfV1a1tuO+8j6cPVrh6gPak+LV/1H
+HTelsAuRJmAJtcaEqL3kKAYZ/lucLUiXjay6wqYubWyhAgMBAAGjWzBZMB0GA1Ud
+DgQWBBT30TJGl+6C1JFvCfKpt7p7P4Sf2DA4BgNVHREEMTAvggpzc28udW1rLnBs
+hiFodHRwczovL3Nzby51bWsucGwvaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
+BQADggEBAH8EZ03cicN/hZAYNRTeoIaMyzpYdT4ZT54feph9Bs7puNcHRawBf1Tb
+8uS8liRbztVEX8//XwrdX6B6yTvHgoMNlw4t4MgCOBA2Yu1euNlr0GbJI5Xvz4tR
+r/V/if2xtYTvBW91N/j3zOAvIPQScF8tjLSnFN8kAE2iz/VtU7euR7a+s5f9cskG
+yBy/DCDjRpHD8Bb6k7s2VfpXLwf7QqqJjNDBPxIG1CxH/l+8FG1ChIFPt26YSqHx
+48/XpTdlAhk7g/zGBonRl6fVH+KNxAED6Jxv5oSyYKn6/pYYeUm303r0NOERzY4g
+5aEMEFYvVdebuDfvZkViQQnpWhUUBlw=
+                        </ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.umk.pl/idp/profile/SAML2/Redirect/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.umk.pl/idp/profile/SAML2/POST/SLO"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://sso.umk.pl/idp/profile/SAML2/POST-SimpleSign/SLO"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.umk.pl/idp/profile/SAML2/POST/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://sso.umk.pl/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+      <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.umk.pl/idp/profile/SAML2/Redirect/SSO"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">Nicolaus Copernicus University in Torun</md:OrganizationName>
+      <md:OrganizationName xml:lang="pl">Uniwersytet Mikołaja Kopernika w Toruniu</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">Nicolaus Copernicus University in Torun</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="pl">Uniwersytet Mikołaja Kopernika w Toruniu</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.umk.pl</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+      <md:GivenName>NCU IdP</md:GivenName>
+      <md:SurName>Team</md:SurName>
+      <md:EmailAddress>mailto:dsu@umk.pl</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+</md:EntitiesDescriptor>
